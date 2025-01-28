@@ -26,6 +26,7 @@ void getLowerAndUpperCount(const char* str, int& lowerCount, int& capitalCount)
 int main()
 {
     int lowers, capitals;
+    capital = lowers = 0;
     getLowerAndUpperCount("afsdfsdSDFFDS", lowers, capitals);
 
     cout << lowers << " " << capitals << endl;
